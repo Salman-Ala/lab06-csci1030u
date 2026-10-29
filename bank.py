@@ -25,13 +25,11 @@ def main():
             #   print "New balance: <balance>" (2 decimal places).
             takeAway = float(input("Amount: "))
             if takeAway > balance:
-                print(f"Insufficient funds")
+                print("Insufficient funds")
             else:
-             balance -= takeAway
-            print(f"New balance: {balance:.2f}")
-            
+               balance -= takeAway
+               print(f"New balance: {balance:.2f}")
 
-            pass
         elif choice == "3":
             # TODO: print "Current balance: <balance>" (2 decimal places).
                 print(f"Current balance: {balance:.2f}")
